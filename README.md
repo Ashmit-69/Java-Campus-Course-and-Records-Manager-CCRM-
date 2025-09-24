@@ -55,21 +55,22 @@ javac -d out -sourcepath src src/edu/ccrm/cli/Main.java
 java -cp out edu.ccrm.cli.Main
 
 
-📜 Java Topics Demonstrated
-Syllabus Topic	Where Implemented
-Encapsulation	Student, Course (private fields + getters/setters)
-Inheritance	Person → Student/Instructor
-Abstraction	Person as abstract class
-Polymorphism	TranscriptService interface with different impls
-Nested classes	Course.Builder
-Interfaces	Persistable, Searchable<T>
-Enums	Semester, Grade
-Lambdas & Streams	Filtering/searching courses, GPA reports
-Recursion	Backup size calculator
-Singleton	AppConfig
-Exception handling	Custom exceptions (DuplicateEnrollmentException)
-Date/Time API	Enrollment date, backup timestamps
-NIO.2 File API	Import/Export, Backup service
+| Syllabus Topic     | Where Implemented                                      |
+| ------------------ | ------------------------------------------------------ |
+| Encapsulation      | `Student`, `Course` (private fields + getters/setters) |
+| Inheritance        | `Person → Student/Instructor`                          |
+| Abstraction        | `Person` as abstract class                             |
+| Polymorphism       | `TranscriptService` interface with different impls     |
+| Nested classes     | `Course.Builder`                                       |
+| Interfaces         | `Persistable`, `Searchable<T>`                         |
+| Enums              | `Semester`, `Grade`                                    |
+| Lambdas & Streams  | Filtering/searching courses, GPA reports               |
+| Recursion          | Backup size calculator                                 |
+| Singleton          | `AppConfig`                                            |
+| Exception handling | Custom exceptions (`DuplicateEnrollmentException`)     |
+| Date/Time API      | Enrollment date, backup timestamps                     |
+| NIO.2 File API     | Import/Export, Backup service                          |
+
 
 
 📖 Java Concepts in README
@@ -88,10 +89,12 @@ NIO.2 File API	Import/Export, Backup service
 2021+: Java 17 LTS, pattern matching, records, sealed classes
 
 🔹 Java Editions
-Edition	Use Case
-Java ME	Mobile devices, embedded systems
-Java SE	Standard Edition, core APIs, desktop apps (used here)
-Java EE (Jakarta EE)	Enterprise apps, web servers, large-scale apps
+| Edition                  | Use Case                                              |
+| ------------------------ | ----------------------------------------------------- |
+| **Java ME**              | Mobile devices, embedded systems                      |
+| **Java SE**              | Standard Edition, core APIs, desktop apps (used here) |
+| **Java EE (Jakarta EE)** | Enterprise apps, web servers, large-scale apps        |
+
 🔹 JDK, JRE, JVM
 
 JDK (Java Development Kit) → Tools + compiler + JRE.
