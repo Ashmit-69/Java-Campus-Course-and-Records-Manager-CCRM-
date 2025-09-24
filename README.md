@@ -53,6 +53,8 @@ Run from Terminal
 cd CCRM
 javac -d out -sourcepath src src/edu/ccrm/cli/Main.java
 java -cp out edu.ccrm.cli.Main
+
+
 📜 Java Topics Demonstrated
 Syllabus Topic	Where Implemented
 Encapsulation	Student, Course (private fields + getters/setters)
@@ -68,6 +70,8 @@ Singleton	AppConfig
 Exception handling	Custom exceptions (DuplicateEnrollmentException)
 Date/Time API	Enrollment date, backup timestamps
 NIO.2 File API	Import/Export, Backup service
+
+
 📖 Java Concepts in README
 🔹 Evolution of Java
 
